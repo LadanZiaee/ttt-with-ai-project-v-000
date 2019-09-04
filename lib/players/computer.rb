@@ -79,6 +79,7 @@ module Players
           3
         else
           nil
+        end
       end
     end
 end
