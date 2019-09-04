@@ -16,6 +16,7 @@ module Players
 
     def move(board)
       @board = board
+      timer <= 0 ? @timer = 0.01 : @timer = timer
       case
         when winning_move != nil
           input = winning_move + 1
