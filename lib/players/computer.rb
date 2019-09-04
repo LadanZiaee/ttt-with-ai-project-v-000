@@ -14,7 +14,7 @@ module Players
     ]
     CORNERS = [0, 2, 8, 6]
 
-    def move(board)
+    def move(board,timer = 0)
       @board = board
       timer <= 0 ? @timer = 0.01 : @timer = timer
       case
